@@ -1,0 +1,5 @@
+The above two files contain the data for "A genetic algorithm with trip-adjustment strategy for multi-depot electric bus vehicle scheduling problem":
+
+1. Word file "Parameters of the 7 problem instances" gives the information of the bus lines and depots, the deadhead distance among CPs (among depots and CPs) for each problem instance;
+
+2. Excel file "Timetables of the 7 problem instances" includes the timetables of all 7 problem instances. 
