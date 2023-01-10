@@ -1,0 +1,3 @@
+The above two files contain the data for "A Construction-and-repair Based Method for Vehicle Scheduling of Bus Line with Branch Lines":
+1. Excel "Average travel time of trips in each hour for 51 problem instances" includes the data of average travel time of trips in each hour for 51 problem instances;
+2. Excel "Timetables of 51 problem instances" includes the timetables of all 51 problem instances. 
