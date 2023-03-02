@@ -1,0 +1,9 @@
+To help other researchers use our proposed method, we provide a guidance on the selection of coefficients as follows:
+
+1. If there are N optimization objectives in the research problem, a series of parameters, i.e. beta_1, beta_2, ..., beta_n,
+   can be set according to the existing literature and adjusted based on the experience of domain experts and researchers;
+
+2. If there are many optimization objectives in the research problem, we need to distinguish the main optimization objectives from the secondary optimization objectives.
+    2.1 The main optimization objectives share a coefficient, denoted as alpha_1.
+    2.2 The secondary optimization objectives share a coefficient, denoted as alpha_2.
+    2.3 Parameters alpha_1 and alpha_2 can be set in accordance with the importance of each objective.
