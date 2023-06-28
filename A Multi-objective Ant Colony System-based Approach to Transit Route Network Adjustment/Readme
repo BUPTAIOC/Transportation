@@ -3,8 +3,8 @@
     （a）The Mandl’s road network was provided by C. E. Mandl in 1980. It is an actual road network in Switzerland and consists of 15 nodes and 15,570 trip demands per day.
         The Mandl’s road network is a small-scale road network has become a benchmark problem instance in the transit route network optimization problem. 
     （b）The real-world transit network is a large-scale road network and has total 301 bus stations, 3758 road sections, and 29 bus lines.
-(3) The Problem Instances of Benchmark Mandl's Road Network folder provides four problem instances of Mandl's road network, i.e., Mandl-8, Mandl1-12, Mandl-10, and Mandl2-12; 
-    The Problem Instances of A Large Scale Public Transit Route Network folder provides three problem instances of the large-scale transit network, i.e., Major-1, Major-2, and Major-3.
+(3) The Problem Instances of Benchmark Mandl's Road Network folder provides four problem instances of Mandl's road network, i.e., Mandl_8, Mandl1_12, Mandl_10, and Mandl2_12; 
+    The Problem Instances of A Large Scale Public Transit Route Network folder provides three problem instances of the large-scale transit network, i.e., Major1, Major2, and Major3.
 (4) Each of the above problem instances contains six files, i.e., G.csv, OD.csv, route_sxx.csv, stop_route.csv and stops.csv.
     (a) G.csv provides the topological structure information of the bus network, which can be represented by the line network matrix;
     (b) OD.csv provides OD passenger flow information, which can be represented by a bus passenger flow matrix;
