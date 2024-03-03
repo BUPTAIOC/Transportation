@@ -1,0 +1,13 @@
+Maximum single driver trip limit:
+6
+Minimum rest time:
+3
+Maximum working time:
+540
+Maximum driving time:
+450
+Population size:
+50
+Evolution rounds:
+20
+line4
