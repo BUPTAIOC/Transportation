@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files\approach">
+      <UniqueIdentifier>{853b5172-2fbe-43d6-91e0-a3653fc0ecf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\approach\Objects">
+      <UniqueIdentifier>{c9c4b7b7-9120-4ae0-922d-05644e004fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\I_O">
+      <UniqueIdentifier>{5956db3d-d481-4f6e-8579-2e42a091f533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\approach\PSO">
+      <UniqueIdentifier>{c5b17e33-ac05-49a1-8652-10793b37d22d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="car.h">
+      <Filter>Header Files\approach\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="onecase.h">
+      <Filter>Header Files\approach\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="schedule.h">
+      <Filter>Header Files\approach\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="timepoint.h">
+      <Filter>Header Files\approach\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="park.h">
+      <Filter>Header Files\approach\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="setting.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="readfile.h">
+      <Filter>Header Files\I_O</Filter>
+    </ClInclude>
+    <ClInclude Include="pso.h">
+      <Filter>Header Files\approach\PSO</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
