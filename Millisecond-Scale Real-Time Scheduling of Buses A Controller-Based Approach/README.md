@@ -1,1 +1,0 @@
-# visual studio 2022, open "sortcars.sln"
