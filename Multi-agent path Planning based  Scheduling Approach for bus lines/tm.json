@@ -1,0 +1,42 @@
+{
+    "example": {
+        "dv_max_n": 8, //Maximum number of trips of long vehicle
+        "dv_max_runt": 390, //Maximum working time of short vehicle (min)
+        "dv_max_wt": 480, //Maximum driving time of short vehicle (min)
+        "dv_rest_min": 3, //Minimum rest time (min)
+        "dv_rest_peak": 180, //Maximum rest time (min)   
+        "num": 230, //Number of departure times in the timetable
+        "s_time": "6:00", //Earliest departure time 
+        "e_time": "20:00" //Latest departure time
+    },
+    "60": {
+        "dv_max_n": 6,
+        "dv_max_runt": 390,
+        "dv_max_wt": 480,
+        "dv_rest_min": 3,
+        "dv_rest_peak": 180,
+        "num": 122,
+        "s_time": "5:50",
+        "e_time": "22:00"
+    },
+    "85": {
+        "dv_max_n": 8,
+        "dv_max_runt": 390,
+        "dv_max_wt": 480,
+        "dv_rest_min": 3,
+        "dv_rest_peak": 180,
+        "num": 170,
+        "s_time": "5:30",
+        "e_time": "23:00"
+    },
+    "70": {
+        "dv_max_n": 8,
+        "dv_max_runt": 390,
+        "dv_max_wt": 480,
+        "dv_rest_min": 3,
+        "dv_rest_peak": 180,
+        "num": 236,
+        "s_time": "5:30",
+        "e_time": "23:38"
+    }
+}
