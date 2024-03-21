@@ -4,12 +4,12 @@ This repository contains 3 real-world BSP instances in Qingdao city, China, whic
 
 > **《Multi-agent path Planning based Scheduling Approach for bus lines》**
 
-> There are two main parts：
+There are two main parts：
 >
 > 1. **Information of three real-world BSP instances**
-> 2. **Timetable of 40 generated instances**
+> 2. **Timetable of 3 real-world and 40 generated BSP instances**
 
-1. ##### Information of three real-world BSP instances
+#### 1. Information of three real-world BSP instances
 
 | Bus lines                                  | 60    | 85   | 70    |
 | ------------------------------------------ | ----- | ----- | ----- |
@@ -22,12 +22,29 @@ This repository contains 3 real-world BSP instances in Qingdao city, China, whic
 | Minimum rest time (min)                    | 3     | 3     | 3     |
 | Maximum rest time (min)                    | 180   | 180   | 180   |
 
-2. ##### Timetable of 40 generated instances
+The file `tm.json` contains the information above.
 
-Each line has a folder for its data, there are three files in the folder:
+#### 2. Timetable of 3 real-world and 40 generated BSP instances
 
+##### 2.1 Real-world BSP instances
+
+In folder `real-world`, each line(`L`) has 3 files for its data:
 | Filename        | Content                                                      |
 | --------------- | ------------------------------------------------------------ |
-| timetable.txt   | Timetable of control point 1, each row corresponds to a departure time |
-| timetable_2.txt | Timetable of control point 2, each row corresponds to a departure time |
-| tmessage.txt    | The travel time of vehicles of 24 hours in a day             |
+| timetable{`L`}.txt   | Timetable of control point 1, each row corresponds to a departure time |
+| timetable{`L`}_2.txt | Timetable of control point 2, each row corresponds to a departure time |
+| duration{`L`}.txt    | The mean travel time of vehicles of 24 hours in a day             |
+
+##### 2.2 Generated BSP instances
+
+In folder `generated`:
+- The folder `line60` contains 10 instances generated from the real-world line60, 21 files in total.
+- The folder `line85` contains 10 instances generated from the real-world line85, 21 files in total.
+- The folder `line70` contains 20 instances generated from the real-world line70, 41 files in total.
+
+Each foldler `line{L}` contains 3 kinds of files:
+| Filename        | Content                                                      |
+| --------------- | ------------------------------------------------------------ |
+| timetable{`L`}-{`I`}_1.txt   | Timetable of control point 1 in instance `I`, each row corresponds to a departure time |
+| timetable{`L`}-{`I`}_2.txt | Timetable of control point 2 in instance `I`, each row corresponds to a departure time |
+| duration{`L`}.txt    | The mean travel time of vehicles of 24 hours in a day             |
