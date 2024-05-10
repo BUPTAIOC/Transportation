@@ -18,7 +18,7 @@ There are two main parts：
 | Number of departure times in the timetable | 120   | 170   | 306   |
 | Maximum working time of short bus (h)      | 8     | 8     | 8     |
 | Maximum driving time of short bus (h)      | 6.5   | 6.5   | 6.5   |
-| Maximum number of trips of short bus       | 8     | 8     | 8     |
+| Maximum number of trips of short bus       | 6     | 8     | 8     |
 | Maximum number of trips of long bus        | 12    | 16    | 16    |
 | Minimum rest time (min)                    | 3     | 3     | 3     |
 | Large interval threshold (min)             | 180   | 180   | 180   |
