@@ -31,7 +31,7 @@ The file `tm.json` contains the information above.
 In folder `real-world`, each line(`L`) has 3 files for its data:
 | Filename        | Content                                                      |
 | --------------- | ------------------------------------------------------------ |
-| timetable{`L`}.txt   | Timetable of control point 1, each row corresponds to a departure time |
+| timetable{`L`}_1.txt | Timetable of control point 1, each row corresponds to a departure time |
 | timetable{`L`}_2.txt | Timetable of control point 2, each row corresponds to a departure time |
 | duration{`L`}.txt    | The mean travel time of vehicles of 24 hours in a day             |
 
