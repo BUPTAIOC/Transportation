@@ -2,7 +2,7 @@
 
 This repository contains 3 real-world BSP instances in Qingdao city, China, which is used in our paper:
 
-> **《Multi-agent path Planning based Scheduling Approach for bus lines》**
+> **《Multi-agent Path Planning based Approach for Bus Online Scheduling》**
 
 There are two main parts：
 >
@@ -16,11 +16,11 @@ There are two main parts：
 | Earliest departure time                    | 5:50  | 5:30  | 5:30  |
 | Latest departure time                      | 22:00 | 23:00 | 23:01 |
 | Number of departure times in the timetable | 120   | 170   | 306   |
-| Maximum working time of short vehicle (h)  | 8     | 8     | 8     |
-| Maximum driving time of short vehicle (h)  | 6.5   | 6.5   | 6.5   |
-| Maximum number of trips of long vehicle    | 12    | 16    | 16    |
+| Maximum working time of short bus (h)      | 8     | 8     | 8     |
+| Maximum driving time of short bus (h)      | 6.5   | 6.5   | 6.5   |
+| Maximum number of trips of long bus        | 12    | 16    | 16    |
 | Minimum rest time (min)                    | 3     | 3     | 3     |
-| Maximum rest time (min)                    | 180   | 180   | 180   |
+| Large interval threshold (min)             | 180   | 180   | 180   |
 
 The file `tm.json` contains the information above.
 
