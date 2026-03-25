@@ -38,5 +38,15 @@
         "num": 236,
         "s_time": "5:30",
         "e_time": "23:38"
+    },
+    "NJ": {
+        "dv_max_n": 12,
+        "dv_max_runt": 420,
+        "dv_max_wt": 540,
+        "dv_rest_min": 3,
+        "dv_rest_peak": 180,
+        "num": 792,
+        "s_time": "4:30",
+        "e_time": "23:59"
     }
 }
