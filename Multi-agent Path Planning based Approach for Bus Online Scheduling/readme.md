@@ -1,31 +1,31 @@
 ### Bus Scheduling Problem (BSP) instances
 
-This repository contains 3 real-world BSP instances in Qingdao city, China, which is used in our paper:
+This repository contains 3 real-world bus lines from Qingdao city, China, and 1 real-world bus line from Nanjing city, China, which are used in our paper:
 
 > **《Multi-agent Path Planning based Approach for Bus Online Scheduling》**
 
 There are two main parts：
 >
-> 1. **Information of three real-world BSP instances**
-> 2. **Timetable of 3 real-world and 40 generated BSP instances**
+> 1. **Information of four real-world BSP instances**
+> 2. **Timetable of 4 real-world and 40 generated BSP instances**
 
-#### 1. Information of three real-world BSP instances
+#### 1. Information of four real-world BSP instances
 
-| Bus lines                                  | 60    | 85   | 70    |
-| ------------------------------------------ | ----- | ----- | ----- |
-| Earliest departure time                    | 5:50  | 5:30  | 5:30  |
-| Latest departure time                      | 22:00 | 23:00 | 23:01 |
-| Number of departure times in the timetable | 120   | 170   | 306   |
-| Maximum working time of short bus (h)      | 8     | 8     | 8     |
-| Maximum driving time of short bus (h)      | 6.5   | 6.5   | 6.5   |
-| Maximum number of trips of short bus       | 6     | 8     | 8     |
-| Maximum number of trips of long bus        | 12    | 16    | 16    |
-| Minimum rest time (min)                    | 3     | 3     | 3     |
-| Large interval threshold (min)             | 180   | 180   | 180   |
+| Bus lines                                  | 60    | 85    | 70    | Nanjing |
+| ------------------------------------------ | ----- | ----- | ----- | ------- |
+| Earliest departure time                    | 5:50  | 5:30  | 5:30  | 4:30    |
+| Latest departure time                      | 22:00 | 23:00 | 23:01 | 23:59   |
+| Number of departure times in the timetable | 120   | 170   | 306   | 792     |
+| Maximum working time of short bus (h)      | 8     | 8     | 8     | 9       |
+| Maximum driving time of short bus (h)      | 6.5   | 6.5   | 6.5   | 7       |
+| Maximum number of trips of short bus       | 6     | 8     | 8     | 12      |
+| Maximum number of trips of long bus        | 12    | 16    | 16    | 24      |
+| Minimum rest time (min)                    | 3     | 3     | 3     | 3       |
+| Large interval threshold (min)             | 180   | 180   | 180   | 180     |
 
 The file `tm.json` contains the information above.
 
-#### 2. Timetable of 3 real-world and 40 generated BSP instances
+#### 2. Timetable of 4 real-world and 40 generated BSP instances
 
 ##### 2.1 Real-world BSP instances
 
